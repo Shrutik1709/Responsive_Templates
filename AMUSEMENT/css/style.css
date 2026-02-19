@@ -1,0 +1,254 @@
+:root{
+    --bs-font:"Black+Ops+One";
+    --bs-font1:"Agbalumo";
+    --bs-font3:"Glass+Antiqua";
+}
+.font1{
+    font-family: var(--bs-font);
+   
+}
+.font-2{
+    font-family: var(--bs-font1);
+}
+.font-3{
+    font-family: var(--bs-font3);
+}
+.imghover:hover{
+  filter: grayscale(100%);
+  transition-duration: 1s;
+}
+
+#hero{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../images/background/background4.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    
+    background-attachment: fixed;
+}
+#img1{
+    margin-top: 200px;
+    padding: 10px;
+}
+ul li{
+   list-style-type: none;
+}
+.shrutik{
+    padding-top: 160px;
+
+}
+.shrutik1{
+    padding-top: 160px;
+
+}
+#hero2{
+    background-color: black;
+}
+.hero2h3{
+    color: orangered;
+}
+.hero2img{
+    height: 70%;
+}
+.Possibilitiesh3{
+    color: orangered;
+}
+.Possibilitiesimgs{
+    height: 60vh;
+}
+#Attraction{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(../images/background/background6.jpg) ;
+    height: 110vh;
+    
+    background-size: cover;
+    
+}
+.attractionh6{
+    color: orangered;
+}
+.Attractionimg1{
+height: 60vh;
+
+}
+.button1{
+    color: orange;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.button1:hover{
+   
+    color: orange;
+    opacity: 30%;
+}
+.list1{
+    color: yellow;
+    /* opacity: 40%; */
+}
+
+.anchor1{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.hover {
+    --c: linear-gradient(#000 0 0); /* update the color here */
+  
+    padding-bottom: 0.15em;
+    background: var(--c), var(--c);
+    background-size: 0.3em 0.1em;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s linear, background-size 0.3s 0.2s linear;
+  }
+  .hover:hover {
+    background-size: 40% 0.1em;
+    background-position: 10% 100%, 90% 100%;
+    color: #000;
+  }
+.hover1 {
+    --c: linear-gradient(#ffffff 0 0); /* update the color here */
+  
+    padding-bottom: 0.15em;
+    background: var(--c), var(--c);
+    background-size: 0.3em 0.1em;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s linear, background-size 0.3s 0.2s linear;
+  }
+  .hover1:hover {
+    background-size: 40% 0.1em;
+    background-position: 10% 100%, 90% 100%;
+    color: #000;
+  }
+  .btn {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    /* margin: 0 0 2em; */
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .btn-1 {
+    background: transparent;
+    font-weight: 100;
+  }
+  .btn-1 svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .btn-1 rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+  
+  .btn-1:hover {
+    background: rgba(223, 221, 221, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  .btn-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .btn-style510 {
+    position: relative;
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    /* border-radius: 100%; */
+    text-decoration: none;
+  }
+  .btn-style510::before, .btn-style510::after {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100px) skewX(-15deg);
+    content: "";
+  }
+  .btn-style510::before {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.5);
+   
+    filter: blur(30px);
+    opacity: 0.5;
+  }
+  .btn-style510::after {
+    width: 30px;
+    left: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    filter: blur(5px);
+  }
+  .btn-style510:hover {
+    background-color: #cf0f5f;
+    border-color: #e5166c;
+    color: #ffffff;
+  }
+  .btn-style510:hover::before {
+    opacity: 1;
+  }
+  .btn-style510:hover::before, .btn-style510:hover::after {
+    transform: translateX(300px) skewX(-15deg);
+    transition: all 0.9s ease;
+  }
+  
+@media only screen and (min-width:768px){
+    .hero2img{
+        height: 100vh;
+    }
+    .hero2img1{
+        width: 80vh;
+    }
+    .Attractionimg1{
+        height: 50vh;
+    }
+    
+}
+@media only screen and (min-width:1440px){
+    .hero2img1{
+     height: 70vh;
+     width: 100%;
+    }
+    .hero2img{
+        height: 70vh;
+    }
+    .hero2div1{
+       text-align: center;
+    }
+    .Possibilitiesimgs{
+        height: 90vh;
+
+    }
+    .inner1{
+       width: 50%;
+}
+.shrutik1{
+    padding-top: 160px;
+    margin-left: 70px;
+}
+.shrutik{
+    margin-right: 70px;
+
+}
+}
